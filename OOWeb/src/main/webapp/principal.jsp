@@ -13,7 +13,7 @@
     }
     Lugar lc = jogador.getLugar();
     if (mensagem != null && mensagem.trim().length() > 0) {
-        lc.getMensagens().add(jogador.getNome() + ":" + mensagem);
+        lc.getMensagens().add(jogador.getNome() + " disse: " + mensagem);
     }
 
     if (movimento != null && movimento.trim().length() > 0) {

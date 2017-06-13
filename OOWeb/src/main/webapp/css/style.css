@@ -1,0 +1,142 @@
+@CHARSET "ISO-8859-1";
+
+
+body {
+  color: #333;
+  font-size: 14px;
+  line-height: 1.42857;
+}
+
+body ul {
+  margin: 0;
+  padding: 0;
+}
+
+body a {
+  transition: all 0.5s ease 0s;
+}
+
+.align-left {
+	text-align: left;
+}
+
+.align-center {
+	text-align: center;
+}
+
+.align-right {
+	text-align: right;
+}
+
+.categ {
+  border-left: 1px dashed #e1ddd3;
+  border-right: 1px dashed #e1ddd3;
+}
+
+.categ h2 {
+  border-bottom: 1px dashed #e1ddd3;
+  color: #47443a;
+  font-family: "Playfair Display",serif;
+  font-size: 26px;
+  font-weight: 600;
+  margin: 0 0 0.5em;
+  padding: 1em 0 1em;
+}
+
+.categoria ul li {
+  padding: 0 1em;
+}
+
+.categoria ul li {
+  border-bottom: 1px dashed #e1ddd3;
+  list-style-type: none;
+  margin-bottom: 1em;
+  padding-bottom: 1em;
+}
+
+.categoria ul li a {
+  color: #538c2e;
+  font-family: "Lato",sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.categoria ul li button {
+  font-family: "Lato",sans-serif;
+  font-size: 13px;
+  margin: 0;
+  padding: 0 0.5em;
+}
+
+.post > div.header {
+	font-size: 3em;
+	padding: 1em 0 0.5em 0;
+}
+
+.post > div.content {
+  color: #47443a;
+  font-family: "Lato",sans-serif;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 23px;
+}
+
+.coment > div.header {
+	font-size: 1em;
+	padding: 0.5em 0 0.5em 0;
+	font-weight: bold;
+}
+
+.coment > div.content {
+  color: #47443a;
+  font-family: "Lato",sans-serif;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 23px;
+  padding: 0 20px;
+}
+
+
+#toTopHover {
+  display: block;
+  float: right;
+  height: 32px;
+  opacity: 0;
+  overflow: hidden;
+  width: 32px;
+}
+
+#toTop {
+  text-indent: 100%;
+}
+
+#toTop {
+  background: rgba(0, 0, 0, 0) url("../images/arrow.png") no-repeat scroll 0 0;
+  border: medium none;
+  bottom: 20px;
+  display: none;
+  height: 32px;
+  overflow: hidden;
+  position: fixed;
+  right: 2%;
+  text-decoration: none;
+  text-indent: 100%;
+  width: 32px;
+  z-index: 999;
+}
+
+#erro ul li {
+  background: lightblue none repeat scroll 0 0;
+  border-radius: 5px;
+  color: red;
+  font-size: 20px;
+  font-weight: bold;
+  list-style: outside none none;
+  margin: 0.5em 0;
+  padding: 0.5em 1em;
+  width: 100%;
+}
+
