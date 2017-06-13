@@ -19,7 +19,7 @@
 					<input type="hidden" name="to" value="norte">
 					<button type="submit" 
 						class="btn btn-lg btn-info btn-block" ${jogador.lugar.norte == null ? 'disabled' : ''}>
-						NORTE
+						NORTE => ${jogador.lugar.norte != null ? jogador.lugar.norte.descricao : 'Vazio'}
 					</button>
 				</form>
 			</div>
@@ -31,7 +31,7 @@
 					<input type="hidden" name="to" value="oeste">
 					<button type="submit" 
 						class="btn btn-lg btn-info btn-block" ${jogador.lugar.oeste == null ? 'disabled' : ''}>
-						OESTE
+						OESTE => ${jogador.lugar.oeste != null ? jogador.lugar.oeste.descricao : 'Vazio'}
 					</button>
 				</form>
 			</div>
@@ -41,7 +41,7 @@
 					<input type="hidden" name="to" value="leste">
 					<button type="submit" 
 						class="btn btn-lg btn-info btn-block" ${jogador.lugar.leste == null ? 'disabled' : ''}>
-						LESTE
+						LESTE => ${jogador.lugar.leste != null ? jogador.lugar.leste.descricao : 'Vazio'}
 					</button>
 				</form>
 			</div>
@@ -53,7 +53,7 @@
 					<input type="hidden" name="to" value="sul">
 					<button type="submit" 
 						class="btn btn-lg btn-info btn-block" ${jogador.lugar.sul == null ? 'disabled' : ''}>
-						SUL
+						SUL => ${jogador.lugar.sul != null ? jogador.lugar.sul.descricao : 'Vazio'}
 					</button>
 				</form>
 			</div>

@@ -15,10 +15,7 @@
     	<script src="js/jquery.min.js"></script>
     
 	    <script type="application/x-javascript">
-		    setTimeout(timeout, 5000); 
-		    function timeout() {
-		      window.location.reload();;
-		    };
+	    	${jogador != null ? 'setTimeout(function () { window.location.reload();}, 5000); ' : ''}
 	    </script>
     </head>
 	<body class="container">
